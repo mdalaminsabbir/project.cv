@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor:context-menu;
+    
+    
+}
+::selection{
+    background-color: #000000;
+    color: #bbff00;
+}
+
+body{
+    background-color:#ff0606;
+    font-family: 'RocknRoll One', sans-serif;
+}
+body:hover{
+    background-color:#00ff88;
+}
+.container{
+max-width: 950px;
+background-color:#000000;
+margin: 0 auto;
+padding: 20px;
+
+    
+}
+header{
+
+}
+.image img {
+height: 120px;
+width: 120px;
+object-fit: cover;
+object-position: center top;
+border-radius: 50%;
+float: left;
+border: #bbff00 2px solid;
+}
+.header-bio{
+    float: left;
+    padding: 25.5px;
+
+}
+.header-contact{
+    float: right;
+    padding: 26px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: rgb(16, 177, 123);
+}
+p, li{
+    color: #fff;
+}
+.header-contact p{
+    text-decoration: none;
+color: #ffffff;
+}
+.header-contact a{
+text-decoration: none;
+color: #ffffff;
+}
+.header-contact a:hover{
+    color:#bbff00;
+    cursor:cell;
+}
+
+.div-clear{
+    clear: both;
+}
+.main-hr{
+    border: solid #bbff00 3px;
+    width: 100%;
+    border-bottom: none;
+    margin: 10px auto;
+ 
+}
+/* Personal section start */
+#personal-section{
+
+}
+.content {
+    margin-bottom: 30px;
+}
+.left-dev {
+    width: 30%;
+    float: left;
+}
+.right-dev {
+    width: 70%;
+    float: left;
+    text-align: justify;
+}
+.common-hr{
+    border: solid #bbff00 1px;
+    border-bottom: none;
+    margin: 20px auto;
+}
+.right-left {
+    box-sizing: border-box;
+    width: 45%;
+    float: left;
+    text-align: left;
+
+}
+.right-right {
+    box-sizing: border-box;
+    width: 45%;
+    float: right;
+    text-align: left;
+
+}
+li{
+    list-style: inside;
+}
+
+/* footer start */
+
+.footer-footer {
+    background-color: #bbff00;
+    text-align: center;
+    padding: 10px;
+}
+.social a{
+    color:#000000;
+    text-decoration:none;
+    margin: 10px 5px 5px 5px;
+}
+.social p{
+    color:#000000;
+    text-decoration:none;
+    margin: 10px 5px 5px 5px;
+}
+.social a:hover{
+    color:#000000;
+    cursor:cell;
+
+}
+.copyright {
+}
